@@ -511,9 +511,189 @@ html {
 }
 
 @media (max-width: 991px) {
+    .main-section {
+        min-height: 530px;
+
+        &__first-elipse {
+            top: 70px;
+        }
+
+        &__second-elipse {
+            top: 400px;
+        }
+    }
     .container {
         width: 720px;
     }
+
+    .left-wrapper {
+        &__img {
+            width: 550px;
+        }  
+
+        &__rectangle-blue {
+            width: 380px;
+            height: 130px;
+        }
+
+        &__rectangle-orange {
+            width: 411px;
+            height: 110px;
+        }
+    
+        &__rectangle-grey {
+            width: 380px;
+            height: 130px;
+        }
+    }  
+
+    .title {
+        font-size: 60px;
+    }
+
+    .right-wrapper {
+        top: 75px;
+        width: 300px;
+
+        &__title {
+            font-size: 60px;
+        }
+
+        &__text {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+    }
+
+    .buttons {
+        &__main-btn {
+            font-size: 14px;
+            margin-right: 10px;
+            width: 160px;
+            height: 50;
+        }
+
+        &__icon-btn {
+            font-size: 14px;
+        }
+    }
+
+    .elipse {
+        width: 150px;
+        height: 150px;
+
+        &__subtract {
+            width: 110px;
+            height: 110px;
+        }
+
+        &__subtract_big {
+            width: 170px;
+            height: 170px;
+        }
+    }
+
+    .second-section {
+        min-height: 450px;
+
+        &__container {
+            padding-top: 20px;
+        }
+
+        &__title {
+            margin-bottom: 25px;
+        }
+
+        &__cards-box {
+        margin-bottom: 10px;
+        }
+
+        &__first-elipse {
+            right: -35px;
+        }
+
+        &__second-elipse {
+            position: absolute;
+            top: 262px;
+            left: -35px;
+        }
+    }
+
+    .cards-item {
+        width: 220px;
+        height: 220px;
+
+        &__img {
+            height: 220px;
+        }
+
+        &__text {
+            font-size: 22px;
+            top: 92px;
+            right: -75px;
+        }
+    }
+
+    .icons-item {
+        &__img {
+            width: 50px;
+        }
+
+        &__text {
+            font-size: 14px;
+            span {
+            font-size: 30px;
+            }
+        }    
+    }
+
+    .elipse_big {
+        width: 250px;
+        height: 250px;
+    }
+
+    .third-section {
+        min-height: 510px;
+
+        &__left-title {
+            display: none;
+        }
+
+        &__right-wrapper {
+            max-width: 600px;
+        }
+
+        &__container {
+            justify-content: flex-start;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        &__right_title {
+            margin-bottom: 10px;
+        }
+    }
+
+    .title {
+        &__hr_top {
+            bottom: 60px;
+        }
+    }
+
+    .footer {
+        &__img {
+            width: 500px;
+        }
+
+        &__title {
+            margin-bottom: 10px;
+        }
+
+        &__container {
+            min-height: 210px;
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
