@@ -9,6 +9,7 @@
 @font-face {
     font-family: 'MontserratT';
     src: url('../fonts/Montserrat-Regular.ttf');
+    font-display: swap;
     font-weight: regular;
     font-style: normal;
 }
@@ -16,6 +17,7 @@
 @font-face {
     font-family: 'MontserratT';
     src: url('../fonts/Montserrat-SemiBold.ttf');
+    font-display: swap;
     font-weight: bold;
     font-style: normal;
 }
@@ -731,6 +733,7 @@ html {
         top: 40px;
         right: 30px;
         height: 14px;
+        z-index: 30;
 
         span {
             height: 2px;
@@ -741,7 +744,7 @@ html {
             transition: 1s all;
         
             &:last-child {
-            margin-bottom: 0;
+                margin-bottom: 0;
             }
         }
     }
@@ -751,7 +754,7 @@ html {
             margin-bottom: -2px;
 
             &:nth-child(1) {
-                transform: translateY(3px) rotate(-45deg)
+                transform: translateY(3px) rotate(-45deg);
             }
 
             &:nth-child(2) {
@@ -759,14 +762,14 @@ html {
             }
 
             &:nth-child(3) {
-                transform: translateY(3px) rotate (45deg)
+                transform: translateY(3px) rotate(45deg);
             }
         }
-
-        .nav-menu_active {
-            right: 0px;
-        }
     }
+
+    .nav-menu_active {
+        right: 0px;
+    }   
 }
 
 @media (max-width: 575px) {
